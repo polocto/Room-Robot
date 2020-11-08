@@ -1,0 +1,11 @@
+bin/*
+Debug/*
+obj/*
+*.cbp
+*.depend
+*.layout
+*.sln
+*.vcxproj
+*.vs
+*.user
+*.filter

@@ -1,0 +1,24 @@
+entitee=0     (100,100)     base_pos=tl      forme=rectangle      longueur=400       largeur=300     couleur=green
+{
+    entitee=-1      ref_pos=bl   (0,0)     base_pos=tl      forme=rectangle      longueur=400       largeur=30     couleur=(200,200,200)
+    {         
+
+
+	id=bot     entitee=1     ref_pos=tl   translation=30     base_pos=bc     end_pos=tr      forme=rectangle      longueur=60       largeur=110     couleur=(150,255,200)
+        {
+            id=arm     entitee=1     ref_pos=br     base_pos=ml     end_pos=tr      forme=rectangle      longueur=80       largeur=20     couleur=(50,100,150)
+            {
+                id=finger1     entitee=1     ref_pos=bc     base_pos=tr     end_pos=bl      forme=rectangle      longueur=10       largeur=20     couleur=(50,200,50)
+                {
+		}
+		id=finger3     entitee=1     ref_pos=bc     base_pos=tl     end_pos=br      forme=rectangle      longueur=10       largeur=20     couleur=(50,200,50)
+                
+            }
+        }
+	     	
+	id=box     entitee=2     ref_pos=tc (70,0)     base_pos=bc     end_pos=tr      forme=rectangle     longueur=30       largeur=15    couleur=(220,150,200)
+	entitee=-1      ref_pos=bl   (0,0)     base_pos=br      forme=rectangle      longueur=30       largeur=330     couleur=(200,200,200)
+      	
+	entitee=-1      ref_pos=br   (0,0)     base_pos=bl      forme=rectangle      longueur=30       largeur=330     couleur=(200,200,200)
+    }
+}

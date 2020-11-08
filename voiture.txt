@@ -1,0 +1,43 @@
+entitee=0     (100,100)     forme=rectangle      longueur=700       largeur=400     couleur=yellow
+{
+	entitee=-1      ref_pos=bl   (0,0)     base_pos=tl      forme=rectangle      longueur=700       largeur=30     couleur=grey
+	{
+		id=voiture entitee=1 ref_pos=tl base_pos=bc end_pos=tr forme=cercle rayon=15 couleur=darkgrey
+		{
+			entitee=1 ref_pos=tc base_pos=bl forme=rectangle longueur=100 largeur=20 couleur=red
+			{
+				ref_pos=tc base_pos=br forme=rectangle longueur=25 largeur=15 couleur=red
+				ref_pos=br base_pos=tc forme=cercle rayon=15 couleur=darkgrey
+			}
+		}
+    		entitee=-1      ref_pos=bl   (0,0)     base_pos=br      forme=rectangle      longueur=30       largeur=430     couleur=grey
+    		{
+			id=plateforme1 ref_pos=tr base_pos=tl end_pos=mr forme=rectangle longueur=250 largeur=40 couleur=darkgrey
+			{
+				id=arm ref_pos=bl base_pos=tc end_pos=br forme=rectangle longueur=15 largeur=40 couleur=(21,45,84)
+				{
+					id=arm ref_pos=bc base_pos=tc forme=rectangle longueur=80 largeur=20 couleur=(21,45,84)
+					{
+						id=finger1 ref_pos=bc base_pos=tl end_pos=br forme=rectangle longueur=10 largeur=30 couleur=(151,93,0)
+						id=finger2 ref_pos=bc base_pos=tr end_pos=bl forme=rectangle longueur=10 largeur=30 couleur=(151,93,0)
+					}
+				}
+			}
+		}
+    		entitee=-1      ref_pos=br   (0,0)     base_pos=bl      forme=rectangle      longueur=30       largeur=430     couleur=grey
+    		{
+			id=plateforme2 ref_pos=tl base_pos=tr end_pos=ml forme=rectangle longueur=250 largeur=40 couleur=darkgrey
+			{
+				id=arm ref_pos=br base_pos=tc end_pos=bl forme=rectangle longueur=15 largeur=40 couleur=(21,45,84)
+				{
+					id=arm ref_pos=bc base_pos=tc forme=rectangle longueur=80 largeur=20 couleur=(21,45,84)
+					{
+						id=finger1 ref_pos=bc base_pos=tl end_pos=br forme=rectangle longueur=10 largeur=30 couleur=(151,93,0)
+						id=finger2 ref_pos=bc base_pos=tr end_pos=bl forme=rectangle longueur=10 largeur=30 couleur=(151,93,0)
+					}
+				}
+			}
+    		}
+		id=plateforme3 ref_pos=tr base_pos=br end_pos=tc forme=rectangle longueur=40 largeur=200 couleur=darkgrey
+	}
+}

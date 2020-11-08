@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="biblio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphisme\couleur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface client\modele_room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objet\bloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objet\forme\cercle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objet\forme\rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objet\room\room_robot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="physique\coords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="physique\pointEncrage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="svg\svgfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="biblio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphisme\couleur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface client\modele.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface client\modele_room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\bloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\forme\cercle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\forme\forme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\forme\rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\room\room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objet\room\room_robot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="physique\coords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="physique\pointEncrage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svg\svgfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="bin\debug\index.html" />
+  </ItemGroup>
+</Project>

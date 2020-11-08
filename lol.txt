@@ -1,0 +1,23 @@
+{
+        id=base    entitee=2     ref_pos=tl     base_pos=bc     end_pos=tr      forme=cercle     rayon=25    couleur=black
+        {
+            id=buste     entitee=1     ref_pos=mc     base_pos=bc      forme=rectangle      longueur=50       largeur=100     couleur=grey
+            {
+                id=arm1     entitee=1     ref_pos=bl     base_pos=mr     end_pos=tl      forme=rectangle   angle=-30   longueur=60       largeur=15     couleur=darkgrey
+                
+                id=arm2     entitee=1     ref_pos=br     base_pos=ml     end_pos=tr      forme=rectangle   angle=30   longueur=60       largeur=15     couleur=darkgrey
+                
+		id=head		entitee=1	ref_pos=tc base_pos=bc forme=rectangle	longueur=20       largeur=17	couleur=darkgrey
+		{
+			entitee=1 ref_pos=mr base_pos=ml forme=cercle rayon=1 couleur=black
+
+			entitee=1 ref_pos=ml base_pos=mr forme=cercle rayon=1 couleur=black
+
+			entitee=1 ref_pos=mc base_pos=mc end_pos=mr forme=cercle rayon=2 couleur=black
+
+			entitee=1 ref_pos=mc base_pos=mc end_pos=ml forme=cercle rayon=2 couleur=black
+		}
+
+            }
+        }
+    }

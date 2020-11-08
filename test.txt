@@ -1,0 +1,12 @@
+load sauvegarde.txt
+ids
+rulers
+@bot move 57
+noids
+@arm move 0
+@finger move 0 catch
+norulers
+@arm move 50
+rotate -45
+@bot move 50
+fin

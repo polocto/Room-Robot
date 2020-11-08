@@ -1,0 +1,19 @@
+id=room     entitee=0     axe_x=0     reverse=0      forme=Rectangle      longueur=400       largeur=300     couleur=(100,100,220)     ref_pos=null (0,0)     base_pos=tl
+{
+    id=ground     entitee=0     axe_x=0     reverse=1      forme=Rectangle      longueur=400       largeur=30     couleur=(200,200,200)     ref_pos=bl (0,0)     base_pos=tl
+    {
+        id=box     entitee=2     axe_x=1     reverse=0      forme=Rectangle      longueur=30       largeur=20     couleur=(220,150,200)     ref_pos=tc (20,-20)     base_pos=bc
+	
+	id=bot     entitee=1     axe_x=1     reverse=0      forme=Rectangle      longueur=60       largeur=110     couleur=(150,255,200)     ref_pos=tl (130,-110)     base_pos=bc
+	{
+	    id=arm     entitee=1     axe_x=0     reverse=1      forme=Rectangle      longueur=80       largeur=20     couleur=(50,100,150)     ref_pos=br (0,-65)     base_pos=ml
+	    {
+		id=finger1     entitee=1     axe_x=1     reverse=1      forme=Rectangle      longueur=10       largeur=20     couleur=(50,200,50)     ref_pos=bc (-20,0)     base_pos=tr
+		
+		id=finger2     entitee=1     axe_x=1     reverse=0      forme=Rectangle      longueur=10       largeur=20     couleur=(50,200,50)     ref_pos=bc (10,0)     base_pos=tl
+
+	    }
+	}
+    }
+}
+fin
