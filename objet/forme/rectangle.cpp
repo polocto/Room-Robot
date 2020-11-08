@@ -6,8 +6,8 @@ void Rectangle::init_encre_pos(PointEncrage*ref_pos,const std::string&base_pos)
 {
     int x=0,y=0;
 
-    x=m_carte[base_pos].getX();
-    y=m_carte[base_pos].getY();
+    x=(int)m_carte[base_pos].getX();
+    y=(int)m_carte[base_pos].getY();
     m_encre_pos[x][y]=ref_pos;
     for(int x1=-x ; x1 < 3-x ; x1++ )
         for(int y1=-y ; y1 < 3-y ; y1++ )
