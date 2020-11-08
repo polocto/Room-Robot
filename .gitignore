@@ -8,4 +8,5 @@ obj/*
 *.vcxproj
 *.vs
 *.user
-*.filter
+*.filters
+x64/*
