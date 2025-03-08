@@ -36,8 +36,8 @@
 #include "objet/room/room_robot.h"
 
 
-#include "interface client/modele.h"
-#include "interface client/modele_room.h"
+#include "interface_client/modele.h"
+#include "interface_client/modele_room.h"
 
 
 #include "svg/svgfile.h"
